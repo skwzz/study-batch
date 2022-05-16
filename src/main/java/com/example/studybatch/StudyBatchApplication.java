@@ -15,6 +15,7 @@ public class StudyBatchApplication {
         ConfigurableApplicationContext context = SpringApplication.run(StudyBatchApplication.class, args);
         int exitCode = SpringApplication.exit(context);
         log.info("EXIT CODE : " + exitCode);
+        System.exit(exitCode);
     }
 
 }
